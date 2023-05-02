@@ -18,6 +18,7 @@ function App() {
         throw new Error("Something went wrong!")
       }
       const data = await response.json();
+      console.log(data)
       const loadedMovies = [];
       for(const key in data) {
         const movie = data[key]
@@ -28,7 +29,7 @@ function App() {
           openingText:movie.openingText,
         })
       }
-      setMovies(loadedMoviescd)
+      setMovies(loadedMovies)
 
     } catch (error) {
       setError(error.message)
