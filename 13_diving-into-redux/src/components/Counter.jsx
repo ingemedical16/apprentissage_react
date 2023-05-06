@@ -1,6 +1,6 @@
 import {useSelector,useDispatch} from 'react-redux'
 
-import {icrement,decrment,toggleCounter,incresse} from '../store/index'
+import {icrement,decrment,toggleCounter,incresse} from '../store/slices/counterSlice'
 import classes from './Counter.module.css';
 
 const Counter = () => {
