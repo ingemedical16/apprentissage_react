@@ -29,7 +29,7 @@ import EventDetailPage from './pages/EventDetailPage'
 import NewEventPage from './pages/NewEventPage'
 import EditEventPage from './pages/EditEventPage'
 
-import EventLayout from './Layout/EventLayout';
+import EventLayout from './pages/EventLayout';
 
 const router = createBrowserRouter([
   {
