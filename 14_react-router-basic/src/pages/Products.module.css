@@ -1,0 +1,16 @@
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    margin: 1rem;
+   
+}
+
+.card p {
+    text-decoration: none;
+    color: brown;
+}

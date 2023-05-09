@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card {
+    width:min-content;
+}
+.card p {
+    color: #000;
+}
+
+.card h1 {
+    color: #000;
+}
